@@ -13,6 +13,9 @@ func main() {
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("Hello World"))
 	})
+	r.Get("/test", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("test"))
+	})
 
 	http.ListenAndServe(":3000", r)
 }
