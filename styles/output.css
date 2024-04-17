@@ -554,7 +554,7 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-orange-200 {
+.text-orange-300 {
   --tw-text-opacity: 1;
-  color: rgb(254 215 170 / var(--tw-text-opacity));
+  color: rgb(253 186 116 / var(--tw-text-opacity));
 }
