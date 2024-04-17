@@ -5,6 +5,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"fmt"
 
 	"github.com/a-h/templ"
 	"github.com/go-chi/chi/v5"
@@ -14,6 +15,7 @@ import (
 
 func main() {
 
+	fmt.Print("Hello")
 	r := chi.NewRouter()
 	r.Use(middleware.Logger)
 
