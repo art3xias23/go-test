@@ -33,7 +33,7 @@ func main() {
 	filesDir := http.Dir(filepath.Join(workDir, "styles"))
 	FileServer(r, "/", filesDir)
 
-	http.ListenAndServe(":3000", r)
+	http.ListenAndServe(":8080", r)
 
 }
 
